@@ -8,6 +8,22 @@ The objective of this work is to increase the transaction throughput by introduc
 
 We report experiments using over 5 million real transactions from the Ethereum blockchain and execute them using our DiPETrans framework to empirically validate the benefits of our techniques over traditional sequential execution. We achieve a maximum speedup of 2.2× for the miner and 2.0× for the validator, with 100 to 500 transactions per block. Further, we achieve a peak of 5× end-to-end block creation speedup using a parallel miner over a serial miner when using 6 machines in the community.
 
+
+## Attribution
+[DiPETrans: A framework for distributed parallel execution of transactions of blocks in blockchains](https://doi.org/10.1002/cpe.6804), Baheti, Shrey, Parwat Singh Anjana, Sathya Peri, and Yogesh Simmhan, *Concurrency and Computation: Practice and Experience*, 34(10), 2022.
+```
+@article{baheti2022dipetrans,
+  title={DiPETrans: A framework for distributed parallel execution of transactions of blocks in blockchains},
+  author={Baheti, Shrey and Anjana, Parwat Singh and Peri, Sathya and Simmhan, Yogesh},
+  journal={Concurrency and Computation: Practice and Experience},
+  volume={34},
+  number={10},
+  pages={e6804},
+  year={2022},
+  publisher={Wiley Online Library}
+}
+```
+
 ## DiPETrans setup
 
 ### Part 1 : Setup distributed environment
